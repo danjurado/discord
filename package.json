@@ -1,0 +1,67 @@
+{
+  "_from": "@terminal123/bitmex-api-lite",
+  "_id": "@terminal123/bitmex-api-lite@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-gFdvaE7+HYuNJdPnMW7S9c0/NllSIOf/pC+kl4sDcOPK8bOfn6QujQBX48WD8RV4j8tasyCRVl6/S6AiLjuLPQ==",
+  "_location": "/@terminal123/bitmex-api-lite",
+  "_phantomChildren": {
+    "async-limiter": "1.0.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@terminal123/bitmex-api-lite",
+    "name": "@terminal123/bitmex-api-lite",
+    "escapedName": "@terminal123%2fbitmex-api-lite",
+    "scope": "@terminal123",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@terminal123/bitmex-api-lite/-/bitmex-api-lite-0.1.0.tgz",
+  "_shasum": "2566c454140d59c2e857d367020688d0af956bfc",
+  "_spec": "@terminal123/bitmex-api-lite",
+  "_where": "C:\\wamp64\\www\\discord_bot_practice",
+  "author": {
+    "name": "Saksama Terminal",
+    "email": "saksama.blog@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bitmex-realtime-api": "^0.4.0",
+    "debug": "^2.6.9",
+    "dialogflow": "^0.9.0",
+    "eventemitter2": "^4.1.2",
+    "lodash": "^4.17.11",
+    "superagent": "^3.8.3",
+    "ws": "^5.2.2"
+  },
+  "deprecated": false,
+  "description": "A library for interacting with BitMEX's websocket API.",
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "bitmex",
+    "bitcoin",
+    "websocket",
+    "api"
+  ],
+  "license": "MIT",
+  "main": "wrapper.js",
+  "name": "@terminal123/bitmex-api-lite",
+  "optionalDependencies": {
+    "bufferutil": "^3.0.5",
+    "utf-8-validate": "^4.0.2"
+  },
+  "repository": "",
+  "scripts": {
+    "start": "node example2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
