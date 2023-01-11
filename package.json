@@ -33,7 +33,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "bitmex-realtime-api": "^0.4.0",
-    "debug": "^2.6.9",
+    "debug": "^3.1.0",
     "dialogflow": "^0.9.0",
     "eventemitter2": "^4.1.2",
     "lodash": "^4.17.11",
